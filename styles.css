@@ -2,10 +2,10 @@
   /* property for the dimension of the nav */
   --nav_width: 100vw;
   --nav_height: 12vh;
+  --sidebar_width: 20vw;
 }
 
 nav {
-    
     display: flex;
     width: var(--nav_width);
     height: var(--nav_height);
@@ -27,6 +27,14 @@ nav {
   background-color: rgb(205, 204, 204);
   color: #000000;
   padding: 0;
+}
+
+#visualizer{
+
+  position: absolute;
+  top: var(--nav_height);
+  left: var(--sidebar_width);
+
 }
 
 /*MMMM logo */
